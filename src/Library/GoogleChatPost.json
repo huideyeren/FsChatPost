@@ -1,0 +1,31 @@
+{
+    "cards": [
+        {
+            "header" : {
+                "title": "猫画像",
+                "subtitle": "癒やしの猫画像をお届けします。"
+            },
+            "sections": [
+                {
+                    "widgets": [
+                        {
+                            "image": {
+                                "imageUrl": "https://purr.objects-us-east-1.dream.io/i/ginger3.jpg",
+                                "onClick": {
+                                    "openLink": {
+                                        "url": "https://purr.objects-us-east-1.dream.io/i/ginger3.jpg"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "textParagraph": {
+                                "text": "Photo by <a href='https://aws.random.cat/'>random.cat</a>"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
