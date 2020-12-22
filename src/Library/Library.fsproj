@@ -4,7 +4,6 @@
     <LangVersion>preview</LangVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Config.fs" />
     <Compile Include="CatPictureUrl.fs" />
     <Compile Include="PostToGoogleChat.fs" />
   </ItemGroup>
