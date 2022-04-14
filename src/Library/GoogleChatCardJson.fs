@@ -53,7 +53,7 @@ module GoogleChatCardJson =
                     subtitle = "癒やしの犬画像をお届けします。"
                 }
                 sections = [{
-                    widgets = [Image(ImageData(DogPictureApi.url)); TextParagraph(TextParagraphData(""))]
+                    widgets = [Image(DogPictureApi.url); TextParagraph("")]
                 }]
             }]
         }
