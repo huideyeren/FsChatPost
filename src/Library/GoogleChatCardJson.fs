@@ -9,24 +9,30 @@ type Header =
         subtitle: string
     }
 
-type Url =
+type OpenLink =
     {
-        url: string
+        url : string
     }
 
-type OnClick(url: string) =
-    let openLink = url
+type OnClick =
+    {
+        openLink: OpenLink
+    }
 
-type ImageData(url: string) =
-    let imageUrl = url
-    let _onClick = OnClick(url)
+type ImageData =
+    {
+        imageUrl: string
+        onClick: OnClick
+    }
 
-type TextParagraphData(text: string) =
-    let text = text
+type TextParagraphData =
+    {
+        text: string
+    }
 
 type Widget =
-    | Image of ImageData
-    | TextParagraph of TextParagraphData
+    | [<JsonUnionCase(Case="image")>] Image of image: ImageData
+    | [<JsonUnionCase(Case="textParagraph")>] TextParagraph of textParagraph: TextParagraphData
 
 type Section =
     {
@@ -53,9 +59,8 @@ module GoogleChatCardJson =
                     subtitle = "癒やしの犬画像をお届けします。"
                 }
                 sections = [{
-                    widgets = [Image(DogPictureApi.url); TextParagraph("")]
+                    widgets = [Image(image = {imageUrl = DogPictureApi.url; onClick = {openLink = {url = DogPictureApi.url}}}); TextParagraph(textParagraph = {text = "Photo by <a href='https://dog.ceo/dog-api/'>Dog API</a>"})]
                 }]
             }]
         }
     let card = Json.serialize cardObject
-    printfn "%s" card

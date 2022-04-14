@@ -1,9 +1,9 @@
 ﻿<Properties GitUserInfo="UsingGIT" StartupConfiguration="{B5A74B8F-7073-43EF-A4A8-2D7E272B12EC}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="src/Library/GoogleChatCardJson.fs">
     <Files>
-      <File FileName="src/App/Program.fs" Line="8" Column="28" />
-      <File FileName="src/Library/PostToGoogleChat.fs" Line="9" Column="1" />
-      <File FileName="src/Library/GoogleChatCardJson.fs" Line="56" Column="32" />
+      <File FileName="src/App/Program.fs" Line="8" Column="1" />
+      <File FileName="src/Library/PostToGoogleChat.fs" Line="13" Column="1" />
+      <File FileName="src/Library/GoogleChatCardJson.fs" Line="35" Column="1" />
       <File FileName="src/Library/DogPictureApi.fs" Line="9" Column="1" />
     </Files>
     <Pads>
@@ -21,7 +21,6 @@
                   <Node name="FrameworkReferences" expanded="True" />
                   <Node name="PackageDependencies" expanded="True" />
                 </Node>
-                <Node name="GoogleChatCardJson.fs" selected="True" />
               </Node>
             </Node>
           </Node>
@@ -38,11 +37,13 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <Breakpoint file="/Users/iosif/Dropbox/Mac/Documents/GitHub/FsChatPost/src/Library/GoogleChatCardJson.fs" relfile="src/Library/GoogleChatCardJson.fs" line="60" column="5" />
-    <Breakpoint file="/Users/iosif/Dropbox/Mac/Documents/GitHub/FsChatPost/src/Library/PostToGoogleChat.fs" relfile="src/Library/PostToGoogleChat.fs" line="9" column="5" />
-    <Breakpoint file="/Users/iosif/Dropbox/Mac/Documents/GitHub/FsChatPost/src/Library/PostToGoogleChat.fs" relfile="src/Library/PostToGoogleChat.fs" line="13" column="1" />
-    <Breakpoint file="/Users/iosif/Dropbox/Mac/Documents/GitHub/FsChatPost/src/Library/DogPictureApi.fs" relfile="src/Library/DogPictureApi.fs" line="9" column="1" />
-    <Breakpoint file="/Users/iosif/Dropbox/Mac/Documents/GitHub/FsChatPost/src/Library/GoogleChatCardJson.fs" relfile="src/Library/GoogleChatCardJson.fs" line="61" column="1" />
+    <BreakpointStore>
+      <Breakpoint file="/Users/iosif/Dropbox/Mac/Documents/GitHub/FsChatPost/src/Library/GoogleChatCardJson.fs" relfile="src/Library/GoogleChatCardJson.fs" line="60" column="5" />
+      <Breakpoint file="/Users/iosif/Dropbox/Mac/Documents/GitHub/FsChatPost/src/Library/PostToGoogleChat.fs" relfile="src/Library/PostToGoogleChat.fs" line="9" column="5" />
+      <Breakpoint file="/Users/iosif/Dropbox/Mac/Documents/GitHub/FsChatPost/src/Library/PostToGoogleChat.fs" relfile="src/Library/PostToGoogleChat.fs" line="13" column="1" />
+      <Breakpoint file="/Users/iosif/Dropbox/Mac/Documents/GitHub/FsChatPost/src/Library/DogPictureApi.fs" relfile="src/Library/DogPictureApi.fs" line="9" column="1" />
+      <Breakpoint file="/Users/iosif/Dropbox/Mac/Documents/GitHub/FsChatPost/src/Library/GoogleChatCardJson.fs" relfile="src/Library/GoogleChatCardJson.fs" line="61" column="1" />
+    </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <Debugger.DebugSourceFolders />
   <MonoDevelop.Ide.ItemProperties.src.App PreferredExecutionTarget="MonoDevelop.Default" />

@@ -5,7 +5,6 @@ open FsChatPost.Library
 
 [<EntryPoint>]
 let main argv =
-    let json = PostToGoogleChat.card
-    printfn "%s" json
+    printfn "Result: %s" PostToGoogleChat.result
     0
     
